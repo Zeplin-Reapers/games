@@ -10,7 +10,6 @@ from random import random
 import math
 number = random() * 100
 number = math.ceil(number)
-print(number)
 def guess():
     uNumber = input("Enter a number: ")
     if int(uNumber) == number:
